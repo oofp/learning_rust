@@ -88,7 +88,7 @@ impl Display for Game {
       write!(fmt, "+\n")
     };
 
-    top_bottom(fmt);
+    let _ = top_bottom(fmt);
 
     for row in 0..self.frame.height {
       write!(fmt,"!");
