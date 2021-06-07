@@ -14,4 +14,9 @@ fn main() {
     for a in args2 {
         println! ("{}",a)
     }
+
+    let args3 = args();
+    for a in args3 {
+        println! ("{:?}",a.parse::<u32>())
+    }
 }
